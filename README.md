@@ -20,4 +20,4 @@ at async Server.toNodeHandle (./node_modules/h3/dist/index.mjs:922:9)
 
 Using @sidebase/nuxt-auth and the Auth0 provider.
 
-Issue: 
+Issue: https://github.com/sidebase/nuxt-auth/issues/203

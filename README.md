@@ -1,6 +1,6 @@
-## Nuxt3 with Auth0
+# Nuxt3 with Auth0
 
-# Use @sidebase/nuxt-auth and the Auth0 provider.
+### Use @sidebase/nuxt-auth and the Auth0 provider.
 
 To begin, update _.env_ with:
 

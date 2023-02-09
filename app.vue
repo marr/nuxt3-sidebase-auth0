@@ -1,6 +1,9 @@
 
 <template>
-  <div>
+  <NuxtExampleLayout example="@sidebase/nuxt-auth">
+    <template #nav>
+      <SiteHeader />
+    </template>
     <NuxtPage />
-  </div>
+  </NuxtExampleLayout>
 </template>

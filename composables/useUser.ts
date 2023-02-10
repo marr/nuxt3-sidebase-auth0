@@ -1,7 +1,17 @@
+const apiRoute = '/api/user';
+
 export default async () => {
-  const { data, error } = await useFetch('/userinfo');
+  const { data, error } = await useFetch(apiRoute);
   if (error.value) {
-    return null;
+    throw new Error('Invalid user');
   }
-  return data;
+
+  function updateUser(data) {
+    return useFetch(apiRoute, {
+      method: 'PATCH',
+      body: data
+    })
+  }
+
+  return [data, updateUser];
 }

@@ -17,6 +17,9 @@ export default NuxtAuthHandler({
       if (token.authToken) {
         session.auth0AccessToken = token.authToken;
       }
+      if (token.sub) {
+        session.user.id = token.sub;
+      }
       return session;
     },
     async jwt({ token, account = {} }) {

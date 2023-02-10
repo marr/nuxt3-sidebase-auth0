@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   modules: ['@nuxt/ui', '@sidebase/nuxt-auth'],
   runtimeConfig: {
+    auth0AdminToken: process.env.AUTH0_ADMIN_TOKEN,
     auth0ClientId: process.env.AUTH0_CLIENT_ID,
     auth0ClientSecret: process.env.AUTH0_CLIENT_SECRET,
     auth0Issuer: process.env.AUTH0_ISSUER,

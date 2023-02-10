@@ -17,5 +17,6 @@ They will be `http://localhost:3000/auth/callback/auth0` in dev. Adjust accordin
 
 ### Further reading
 
+1. https://auth0.com/docs/secure/tokens/access-tokens/management-api-access-tokens
 1. https://sidebase.io/nuxt-auth/recipes/custom-session-data
-2. https://sidebase.io/nuxt-auth/configuration/nuxt-auth-handler#secret
+1. https://sidebase.io/nuxt-auth/configuration/nuxt-auth-handler#secret

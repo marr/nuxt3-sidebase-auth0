@@ -7,5 +7,5 @@
   </nav>
 </template>
 <script setup lang="ts">
-const { data: user, signIn, signOut, status } = useSession();
+const { signIn, signOut, status } = useSession();
 </script>
